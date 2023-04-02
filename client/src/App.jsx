@@ -1,4 +1,5 @@
 import React from "react"
+import Signup from "./Components/Form/Signup/Signup"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
 
       <h1>Hello World</h1>
+      <Signup />
     </div>
   )
 }
