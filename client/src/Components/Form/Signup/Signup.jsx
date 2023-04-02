@@ -8,7 +8,10 @@ const Signup = () => {
     });
 
     const handleinput = (e) => {
-        setUser({ ...user, [e.target.name]: e.target.value })
+        // const { name, value } = e.target;
+        setUser({
+            ...user, [e.target.name]: e.target.value
+        })
     }
     return (
         <div>
