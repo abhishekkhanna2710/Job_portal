@@ -7,7 +7,7 @@ const Signup = () => {
         password: ""
     });
 
-    const handleinput = e => {
+    const handleinput = (e) => {
         setUser({ ...user, [e.target.name]: e.target.value })
     }
     return (
